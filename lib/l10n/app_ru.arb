@@ -1,0 +1,119 @@
+{
+  "@@locale": "ru",
+  "appTitle": "TerraMind",
+  "@appTitle": {
+    "description": "Название приложения"
+  },
+  "languageRussian": "Русский",
+  "@languageRussian": {
+    "description": "Название русского языка"
+  },
+  "languageKazakh": "Қазақша",
+  "@languageKazakh": {
+    "description": "Название казахского языка"
+  },
+  "commonCancel": "Отмена",
+  "commonSave": "Сохранить",
+  "commonDelete": "Удалить",
+  "commonClose": "Закрыть",
+  "commonLater": "Позже",
+  "commonOk": "Понятно",
+  "commonError": "Ошибка",
+  "commonNotFound": "Не найдено",
+  "homeWelcomeTitle": "Добро пожаловать в TerraMind",
+  "homeWelcomeSubtitle": "AI-платформа для умного земледелия",
+  "homeStartMap": "Начать работу с картой",
+  "homeFeaturesTitle": "Основные возможности",
+  "homeFeatureMapTitle": "Интерактивная карта",
+  "homeFeatureMapDescription": "Создайте участки на карте",
+  "homeFeaturePlannerTitle": "Планировщик огорода",
+  "homeFeaturePlannerDescription": "Разместите грядки и расчёты",
+  "homeFeatureAiTitle": "AI-Рекомендации",
+  "homeFeatureAiDescription": "Умные советы для урожая",
+  "homeFeatureWikiTitle": "База знаний",
+  "homeFeatureWikiDescription": "TerraMind Wiki",
+  "homeFeatureCommunityTitle": "Сообщество",
+  "homeFeatureCommunityDescription": "SOS-лента и группы",
+  "homeFeatureEcoTitle": "Мой Эко-Вклад",
+  "homeFeatureEcoDescription": "Достижения и статистика",
+  "homeFeatureMarketplaceTitle": "Маркетплейс",
+  "homeFeatureMarketplaceDescription": "Kaspi.kz интеграция",
+  "mapTitle": "Карта участков",
+  "mapFinish": "Завершить",
+  "mapMinPointsError": "Необходимо минимум 3 точки для создания участка",
+  "mapPlotNameTitle": "Название участка",
+  "mapPlotNameHint": "Например: Дача, Огород у дома",
+  "mapPlotCreated": "Участок \"{name}\" создан",
+  "@mapPlotCreated": {
+    "description": "Сообщение об успешном создании участка",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "mapPlotConfigure": "Настроить",
+  "mapDrawingHint": "Режим рисования: нажмите на карту для добавления точек",
+  "mapDrawingPoints": "{count} точек",
+  "@mapDrawingPoints": {
+    "description": "Количество точек при рисовании",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "mapAttribution": "© OpenStreetMap contributors",
+  "plotNotFound": "Участок не найден",
+  "plotSettingsTitle": "Настройка: {name}",
+  "@plotSettingsTitle": {
+    "description": "Заголовок настройки участка",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "plotMainParameters": "Основные параметры",
+  "plotCropLabel": "Культура *",
+  "plotCropHint": "Выберите культуру",
+  "plotSoilLabel": "Тип почвы *",
+  "plotSoilHint": "Выберите тип почвы",
+  "plotPlantingDate": "Дата посадки",
+  "plotDatePlaceholder": "Выберите дату",
+  "plotInfoText": "После сохранения параметров AI-советник сможет давать персонализированные рекомендации",
+  "plotSaveButton": "Сохранить параметры",
+  "plotSaved": "Параметры участка сохранены",
+  "plotSavedDialogTitle": "Параметры сохранены",
+  "plotSavedDialogQuestion": "Хотите получить AI-рекомендации для вашего участка?",
+  "plotGetRecommendations": "Получить рекомендации",
+  "plotValidationError": "Пожалуйста, заполните все обязательные поля",
+  "cropTomato": "Томаты",
+  "cropCucumber": "Огурцы",
+  "cropMelon": "Дыня",
+  "cropWatermelon": "Арбуз",
+  "cropPotato": "Картофель",
+  "cropCarrot": "Морковь",
+  "cropCabbage": "Капуста",
+  "cropPepper": "Перец",
+  "cropEggplant": "Баклажаны",
+  "cropOnion": "Лук",
+  "cropGarlic": "Чеснок",
+  "cropBeet": "Свёкла",
+  "cropCorn": "Кукуруза",
+  "cropWheat": "Пшеница",
+  "cropRice": "Рис",
+  "cropApple": "Яблоки",
+  "cropGrape": "Виноград",
+  "soilChernozem": "Чернозём",
+  "soilSandy": "Песчаная",
+  "soilClay": "Глинистая",
+  "soilLoam": "Суглинистая",
+  "soilPeat": "Торфяная",
+  "soilLime": "Известковая",
+  "soilSaline": "Солончаковая",
+  "aiPersonalAdviceTitle": "Персональные советы от AI",
+  "aiExtraTipsTitle": "Дополнительные советы",
+  "aiForecastTitle": "Прогноз на 3 дня"
+}
+

@@ -1,0 +1,52 @@
+name: terramind
+description: AI-powered agricultural platform for smart farming
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  
+  # UI & Icons
+  cupertino_icons: ^1.0.6
+  flutter_svg: ^2.0.9
+  
+  # Maps
+  # yandex_mapkit: ^4.2.1  # Временно отключено для APK сборки
+  geolocator: ^10.1.0
+  
+  # State Management
+  provider: ^6.1.1
+  
+  # Navigation
+  go_router: ^12.1.3
+  
+  # Utils
+  intl: ^0.20.2
+  shared_preferences: ^2.2.2
+  webview_flutter: ^4.13.0
+  url_launcher: ^6.3.2
+  flutter_map: ^8.2.2
+  latlong2: ^0.9.1
+  http: ^1.5.0
+  weather: ^3.2.1
+  google_generative_ai: ^0.4.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true
+  
+  assets:
+    - assets/images/
+    - assets/icons/
+
